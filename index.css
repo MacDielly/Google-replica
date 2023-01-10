@@ -1,0 +1,236 @@
+/* ------GENERAL CSS------ */
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 10fr 2fr;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+a {
+    text-decoration: none;
+    color: #70757a;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    color: #70757a;
+}
+
+/* ------NAVBAR------ */
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* ------NAVBAR ITEMS------ */
+
+.gmail a{
+    padding-left: 15px;
+    color: black;
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+
+.images a{
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+
+.apps {
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.apps img {
+    width: 20px;
+    height: 20px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.connexion {
+    padding-left: 15px;
+}
+
+.connexion button{
+    border: 1px solid transparent;
+    line-height: 16px;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #1a73e8;
+    text-decoration: none;
+    margin-left: 8px;
+    margin-right: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.connexion button:hover {
+    background-color: #1a0dab;
+    cursor: pointer;
+}
+
+.connexion button:visited {
+    color: #681da8;
+}
+
+/* ------MAIN (& GOOGLE BIG LOGO)------ */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------SEARCH ZONE------ */
+
+.text_area {
+    position: relative;
+}
+
+input {
+    width: 600px;
+    padding: 15px;
+    margin: 4px;
+    box-sizing: border-box;
+    padding-left: 60px;
+    border-radius: 50px;
+    border: 1px solid #dfe1e5;
+}
+
+.leftb {
+    height: 19px;
+    width: 19px;
+    position: absolute;
+    left: 14px;
+    top: 10px;
+    padding: 10px 10px;
+}
+
+.rightb {
+    height: 25px;
+    width: 17px;
+    position: absolute;
+    right: 22px;
+    top: 7px;
+    padding: 10px 10px;
+}
+
+/* ------BUTTONS------ */
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.twins_buttons {
+    border: 1px solid transparent;
+    line-height: 16px;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    color: #3c4043;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    text-decoration: none;
+    margin-left: 8px;
+    margin-right: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.twins_buttons:hover {
+    border: 1px solid #dadce0;
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+/* ------FOOTER------ */
+
+footer {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    /* height: 150px;  */
+    background: #f2f2f2;
+    padding: 1rem;
+}
+
+/* ------DURABLE DEVELOPMENT------ */
+
+.durable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#leaf {
+    max-height: 14px;
+}
+
+/* ------END LINKS------ */
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+}
+
+.links div {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2rem;
+}
+
+#left {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#center {
+    width: 25px;
+}
+
+#right {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
